@@ -31,7 +31,7 @@ length = int(input_movie.get(cv2.CAP_PROP_FRAME_COUNT))
 
 # Create an output movie file (make sure resolution/frame rate matches input video!)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-output_movie = cv2.VideoWriter('e:/Computer vision/face_recognition/face_recognition-master/vidz/blomming_lips_600.avi', fourcc, 29.97, (800, 600))
+output_movie = cv2.VideoWriter('e:/Computer vision/face_recognition/face_recognition-master/vidz/blomming_lips_600.avi', fourcc, 29.97, (1280,720))
 
 # Load some sample pictures and learn how to recognize them.
 
