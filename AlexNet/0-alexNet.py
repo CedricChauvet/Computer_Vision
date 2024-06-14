@@ -105,7 +105,7 @@ AlexNet.add(K.layers.Activation('softmax'))
 #        K.metrics.FalseNegatives(),
 #    ],
 #)
-
+# just beware of the loss, idk what is sparse_categorical_crossentropy
 AlexNet.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # Entraînement du modèle
